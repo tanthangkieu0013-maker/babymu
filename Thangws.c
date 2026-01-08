@@ -1,16 +1,15 @@
-#include <stdio.h>
-// Function prototypes
-int function_example(void);
-void function_example2(void);
+#include <stdio.h> // Nhúng thư viện chuẩn để sử dụng hàm printf
 
+int ỉn_ra_man_hinh_1(void);
+void in_ra_man_hinh_2(void);
 int tinh_tong(int a, int b);
 
 // int = integer = số nguyên
 
 int main()
 {
-    int a = function_example();
-    function_example2();
+    int a = ỉn_ra_man_hinh_1(); // Gọi hàm
+    in_ra_man_hinh_2();
 
     int b = tinh_tong(5, 10);
 
@@ -19,14 +18,14 @@ int main()
     return 0;
 }
 
-int function_example()
+int ỉn_ra_man_hinh_1()
 {
     // This is an example function
     printf("Hello, I'm Kieu Tan Thang!\n");
     return 10;
 }
 
-void function_example2()
+void in_ra_man_hinh_2()
 {
     // This is an example function
     printf("Ma so sinh vien: PS47908\n");
